@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{4FEB0F21-4C6F-B36B-9153-59B72B02523B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BTEvolver.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BTEvolver.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/BTGenotype.cs" Line="166" Column="6" />
+      <File FileName="Assets/Scripts/WormBTController.cs" Line="127" Column="14" />
+      <File FileName="Assets/Scripts/LightBallController.cs" Line="44" Column="42" />
+      <File FileName="Assets/Scripts/LightMasterController.cs" Line="42" Column="5" />
+      <File FileName="Assets/Scripts/ShootBullet.cs" Line="10" Column="39" />
+      <File FileName="Assets/Scripts/Jump.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LowLife.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WormController.cs" Line="41" Column="27" />
+      <File FileName="Assets/Scripts/Grounded.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/HittingWall.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/AtEdge.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RangeCheckController.cs" Line="28" Column="46" />
+      <File FileName="Assets/Scripts/ArrowController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/KillPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerInRange.cs" Line="13" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Light__Master PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>

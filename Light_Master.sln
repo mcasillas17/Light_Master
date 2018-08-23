@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light_Master", "Light_Master.csproj", "{4FEB0F21-4C6F-B36B-9153-59B72B02523B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light_Master.Editor", "Light_Master.Editor.csproj", "{F72FC865-C0BC-8A8B-32DE-FC0DBC82BA9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FEB0F21-4C6F-B36B-9153-59B72B02523B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEB0F21-4C6F-B36B-9153-59B72B02523B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEB0F21-4C6F-B36B-9153-59B72B02523B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEB0F21-4C6F-B36B-9153-59B72B02523B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72FC865-C0BC-8A8B-32DE-FC0DBC82BA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72FC865-C0BC-8A8B-32DE-FC0DBC82BA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72FC865-C0BC-8A8B-32DE-FC0DBC82BA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72FC865-C0BC-8A8B-32DE-FC0DBC82BA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
