@@ -254,14 +254,14 @@ public class RoomGenerator : MonoBehaviour {
 					currentTile = (GameObject)Instantiate (knifeLaunchers [Random.Range (0, 3)], currentPosition, Quaternion.identity);
 				} else if (room [i, j] == 'C') {
 					currentTile = (GameObject)Instantiate (checkPoint, currentPosition, Quaternion.identity);
-				} else if (room [i, j] == 'w') {
+				} /*else if (room [i, j] == 'w') {
 					currentTile = (GameObject)Instantiate (wormEnemy, currentPosition, Quaternion.identity);
                     int treeIndex = wormEvolver.getNextTreeIndex();
                     BTGenotype btGenotype = wormEvolver.getNextTree();
                     WormBTController controller = currentTile.GetComponent<WormBTController>();
                     levelManager.addWorm(controller);
                     controller.setBT(btGenotype, treeIndex);
-				}
+				}*/
 				if (currentTile != null) {
 					currentTile.transform.SetParent (gameObject.transform);
 				}

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio for Mac
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light_Master", "Light_Master.csproj", "{4FEB0F21-4C6F-B36B-9153-59B72B02523B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light_Master.Editor", "Light_Master.Editor.csproj", "{F72FC865-C0BC-8A8B-32DE-FC0DBC82BA9F}"

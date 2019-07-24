@@ -20,13 +20,13 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	public void initManager () {
-        wormObjects = new List<WormBTController>();
+        //wormObjects = new List<WormBTController>();
         player = FindObjectOfType<LightMasterController> ();
 		currentCheckPoint = GameObject.FindGameObjectWithTag ("StartPoint");
 		respawnDelay = 1.5f;
 		gravityStore = player.GetComponent<Rigidbody2D> ().gravityScale;
-        wormEvolver = FindObjectOfType<BTEvolver>();
-        wormEvolver.initEvolver();
+        //wormEvolver = FindObjectOfType<BTEvolver>();
+        //wormEvolver.initEvolver();
 	}
 
 	public void respawnPlayer(){
@@ -51,14 +51,14 @@ public class LevelManager : MonoBehaviour {
 			player.GetComponent<Renderer> ().enabled = true;
             //player.GetComponent<Rigidbody2D>().gravityScale = gravityStore;
 		} else {
-            saveBTsFitness();
+            //saveBTsFitness();
 			string currentScene = SceneManager.GetActiveScene ().name;
 			SceneManager.LoadScene (currentScene);
 		}
 	}
 
     public void addWorm(WormBTController worm){
-        wormObjects.Add(worm);
+        //wormObjects.Add(worm);
     }
 
     public void saveBTsFitness(){
@@ -74,7 +74,7 @@ public class LevelManager : MonoBehaviour {
     }
 
 	public void MoveToNextLevel(){
-        saveBTsFitness();
+        //saveBTsFitness();
 		string currentScene = SceneManager.GetActiveScene ().name;
 		if (currentScene == "Tutorial") {
 			SceneManager.LoadScene ("DirtLevel");
@@ -90,9 +90,9 @@ public class LevelManager : MonoBehaviour {
 	}
 
     public void enableBTOnWorms(){
-        for(int i = 0; i < wormObjects.Count; i++){
-            wormObjects[i].enableBT();
-        }
+        //for(int i = 0; i < wormObjects.Count; i++){
+        //    wormObjects[i].enableBT();
+        //}
     }
     
 }
